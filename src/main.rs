@@ -21,6 +21,7 @@ mod config;
 mod widgets;
 
 use self::application::GtkRustTemplateApplication;
+// use self::widgets::GtkRustTemplateWindow;
 
 use config::{APP_ID, GETTEXT_PACKAGE, LOCALEDIR};
 use gettextrs::{bind_textdomain_codeset, bindtextdomain, textdomain};
