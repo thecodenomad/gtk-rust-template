@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/example/gtk_rust_template">
+    <file>resources/window.blp</file>
+  </gresource>
+</gresources>

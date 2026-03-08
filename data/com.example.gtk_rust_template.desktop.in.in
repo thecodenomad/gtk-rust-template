@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Gtk Rust Template
+Comment=A GNOME/GTK application template written in Rust
+Exec=gtk-rust-template
+Icon=@icon@
+Terminal=false
+Type=Application
+Categories=Education;GTK;GNOME
+Keywords=template;gtk;gnome;rust
+StartupNotify=true

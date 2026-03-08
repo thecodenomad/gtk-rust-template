@@ -1,0 +1,19 @@
+# Added by cargo
+
+/target
+
+.vscode/
+target/
+build/
+_build/
+builddir/
+build-dir/
+data/com.example.gtk_rust_template.metainfo.xml.in
+data/resources/com.example.gtk_rust_template.metainfo.xml
+src/config.rs
+.flatpak/
+vendor
+.flatpak-builder
+.cargo
+export/
+repo/

@@ -1,0 +1,5 @@
+data/com.example.gtk_rust_template.desktop.in.in
+data/com.example.gtk_rust_template.metainfo.xml.in.in
+data/com.example.gtk_rust_template.gschema.xml
+src/widgets/window.blp
+src/widgets/window.rs
