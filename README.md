@@ -15,17 +15,17 @@ This is a minimal template for creating GNOME/GTK applications using Rust with l
 
 There are 2 ways to build from source: Using Nix or using Flatpak.
 
-Here are the key reasons to choose each approach:
-Build a Binary (via Nix)
-Best for:
+### Why Build a Binary via Nix?
+
 - Local development and testing - Faster iteration cycle, no sandbox restrictions
 - Quick debugging - Easier to attach debuggers, inspect logs, and test changes
 - System integration - Runs directly on your host, easier to integrate with system tools
 - Smaller file size - No bundled runtimes, just the binary (~5-10 MB vs ~100+ MB for Flatpak)
 - No Flatpak dependencies - Doesn't require Flatpak runtime installed
 - Development workflow - cargo run gives instant feedback without building containers
-Build a Flatpak
-Best for:
+
+### Why Build a Flatpak?
+
 - Deployment - The standard format for distributing GNOME applications
 - Flathub submission - Required if you want to publish to Flathub
 - Isolation - Runs in a sandbox with controlled access to system resources
@@ -34,7 +34,6 @@ Best for:
 - Security - Sandboxed access to files, devices, and network
 - Version management - Users can run multiple versions side-by-side
 - Updates - Automatic updates through Flatpak runtime or Flathub
-
 
 ## Binary Build (Nix)
 
